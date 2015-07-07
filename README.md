@@ -23,14 +23,14 @@ http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/
 
 For most complete documentation of the project, check Aspose.Cells Java for Ruby confluence wiki link:
 
-http://www.aspose.com/docs/display/cellssjava/3.+Aspose.Cells+Java+For+Ruby
+http://www.aspose.com/docs/display/cellsjava/4.+Aspose.Cells+Java+For+Ruby
 
 ## Usage
 
 ```ruby
-require '../lib/asposecellsjava'
+require require File.dirname(File.dirname(File.dirname(__FILE__))) + '/lib/asposecellsjava'
 include Asposecellsjava
-include Asposecellsjava::HideUnhideWorksheet
+include Asposecellsjava::HelloWorld
 initialize_aspose_cells
 ```
 Lets understand the above code
